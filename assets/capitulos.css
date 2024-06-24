@@ -1,0 +1,53 @@
+section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seletor{
+    margin-top: 2%;
+    padding: 1% 1% 4.5% 1%;
+    border: .2vh black solid;
+    border-radius: 4px;
+    background-color: #412C2B;
+    width: 50%;
+    height: 10vh;
+    text-align: center;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.seletor ul li{
+    margin-top: 2%;
+    background-color: #C22820;
+    padding: 10px;
+}
+
+#capitulo{
+    width: 94.1%;
+    height: 3vh;
+    background-color: #993833;
+    text-indent: 1%;
+    border: none;
+    font-size: 1em;
+}
+
+#ler{
+    background-image: url(imgs/image2.png);
+    width: 488px;
+    height: 69.7vh;
+    margin: 2% 0 1.5% 0;
+}
+
+#modlei{
+    position: relative;
+    left: 39%;
+    top: .7vh;
+    background: #fff;
+    border: .2vh black solid;
+    cursor: pointer;
+    width: 10.7vh;
+    height: 2vh;
+    padding: .5vh;
+}
