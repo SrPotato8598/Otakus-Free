@@ -37,8 +37,14 @@ ul, li{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    font-size: 20px;
+    font-size: 2vh;
     font-weight: normal;
+}
+
+@media (max-width: 480px) {
+    ul, li{
+        font-size: 1.5vh;
+    }
 }
 
 a{
@@ -67,10 +73,39 @@ a{
 }
 
 .banner{
-    width: 50%;
-    height: 36vh;
+    width: 1094px;
+    height: 347px;
     background-image: url(imgs/image1.png);
+    background-size: contain;
     margin-bottom: 1.7%;
+}
+
+@media (max-width: 1360px) {
+    .banner{
+        width: 957px; /*-273px*/
+        height: 303px; /*-87px*/
+    }
+}
+
+@media (max-width: 1280px) {
+    .banner{
+        width: 821px; /*-273px*/
+        height: 260px; /*-87px*/
+    }
+}
+
+@media (max-width: 854px) {
+    .banner{
+        width: 548px; /*-273px*/
+        height: 173px; /*-87px*/
+    }
+}
+
+@media (max-width: 640px) {
+    .banner{
+        width: 275px; /*-273px*/
+        height: 86px; /*-87px*/
+    }
 }
 
 .mangas{
@@ -81,34 +116,59 @@ a{
     row-gap: 3vh;
 }
 
+.imgmanga{
+    width: 180px;
+    height: 300px;
+    background-size: contain;
+}
+
+
+@media (max-width: 1360px) {
+    .imgmanga{
+        width: 157px; /*-45px*/
+        height: 262px; /*-75px*/
+    } 
+}
+
+@media (max-width: 1280px) {
+    .imgmanga{
+        width: 135px; /*-45px*/
+        height: 225px; /*-75px*/
+    } 
+}
+
+@media (max-width: 854px) {
+    .imgmanga{
+        width: 90px; /*-45px*/
+        height: 150px; /*-75px*/
+    } 
+}
+
+@media (max-width: 640px) {
+    .imgmanga{
+        width: 45px; /*-45px*/
+        height: 75px; /*-75px*/
+    } 
+}
+
 #u{
     background-image: url(imgs/manga1.png);
-    width: 19vh;
-    height: 31.7vh;
 }
 
 #d{
     background-image: url(imgs/manga2.png);
-    width: 18vh;
-    height: 31.7vh;
 }
 
 #t{
     background-image: url(imgs/manga3.png);
-    width: 19vh;
-    height: 31.7vh;
 }
 
 #q{
     background-image: url(imgs/manga4.png);
-    width: 19vh;
-    height: 31.7vh;
 }
 
 #c{
     background-image: url(imgs/manga5.png);
-    width: 19vh;
-    height: 31.7vh;
 }
 
 .cbfoot{
@@ -129,5 +189,23 @@ a{
 
 #a-z li{
     background-color: #993833;
-    padding: 0.5vh 1vh 0.5vh 1vh;
+    padding: 3px 8px 3px 8px;
+}
+
+@media (max-width: 1280px) {
+    #a-z li{
+        padding: 1px 3px 1px 3px;
+    }
+}
+
+@media (max-width: 640px) {
+    #a-z li{
+        padding: .5px 1px .5px 1px;
+    }
+}
+
+@media (max-width: 480px) {
+    #a-z li{
+        padding: .25px .5px .25px .5px;
+    }
 }
